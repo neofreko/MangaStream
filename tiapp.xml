@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <id>com.neofreko.android.mangastream</id>
+    <name>MangaStream</name>
+    <version>1.0</version>
+    <publisher>Akhmad Fathonih</publisher>
+    <url>http://neofreko.github.org/mangastream</url>
+    <description>Show fresh mangas from mangastream and read it in a browser</description>
+    <copyright>CCSA</copyright>
+    <icon>mangastream-logo.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+<guid>865ecbe1-ebad-4462-942e-79c9a481e1a0</guid>
+</ti:app>
