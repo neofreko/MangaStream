@@ -92,11 +92,11 @@ xhr.onload = function()
           if (!(header in data))
             data[header] = new Array();
           
-          var title = item.content.replace(/\n/, ' ');
+          var title = item.content.replace(/\n/, ' ').replace(/_/, ' ');
           var row = {title: title, hasDetail: true, color: '#000000', permalink: item.href};
           if (data[header].length==0) {
             Titanium.API.info('add header: ' + header);
-            row = {title: title, hasDetail: true, color: '#000000', permalink: item.href, header: header};
+            row = {title: title, hasDetail: true, color: '#000000', permalink: item.href, header: header.replace('_', ' ')};
           }
           rows.push(row);
           data[header].push(row);          
