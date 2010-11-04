@@ -6,6 +6,6 @@ Titanium.UI.currentWindow.add(webview);
 Titanium.UI.currentWindow.addEventListener('openme',function(e)
 {
     Titanium.API.info("openme event received = "+JSON.stringify(e));
-    webview.url = 'http://mangastream.com/' + e.permalink;
+    webview.url = e.permalink;
 });
 

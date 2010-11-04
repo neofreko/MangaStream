@@ -13,7 +13,7 @@
     <statusbar-style>default</statusbar-style>
     <statusbar-hidden>false</statusbar-hidden>
     <fullscreen>false</fullscreen>
-    <navbar-hidden>false</navbar-hidden>
+    <navbar-hidden>true</navbar-hidden>
     <analytics>true</analytics>
 <guid>865ecbe1-ebad-4462-942e-79c9a481e1a0</guid>
 </ti:app>
